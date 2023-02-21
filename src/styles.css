@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efefef;
+}
+h4 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.drop-down-btn {
+  border: none;
+  background-color: white;
+  width: 90%;
+  padding: 7px 10px;
+  color: rgb(170, 170, 178);
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.states-options {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  overflow-y: auto;
+  height: 200px;
+  cursor: pointer;
+  padding: 10px 17px;
+  border-radius: 5px;
+}
+.states-options .selected {
+  background-color: rgb(225, 242, 251);
+}
+.select-states {
+  border: none;
+  color: rgb(170, 170, 178);
+  text-transform: uppercase;
+  background: none;
+  margin-inline: 5px;
+  cursor: pointer;
+}
+.select-states:hover {
+  color: black;
+}
